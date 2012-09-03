@@ -3,7 +3,7 @@
 ## Constraints
 
 * Must be written in C++
-* Recommended to build and run on Ubnutu Linux (9.04 or above).  Windows also accepted (but not preferred).
+* Recommended to build and run on Ubnutu Linux (10.04 or above).  Windows also accepted (but not preferred).
 * Recommended to use the Qt SDK (http://qt.nokia.com/downloads/).  Stub project provided.  Boost also accepted (by not preferred).
 
 ## Task
@@ -13,7 +13,7 @@
 
 ## Output format
 
-An ascii text file containing one line for each colour band in the image (in the order red, green, blue).  Each line is a comma separated list of the pixel count for each value (0-255).
+An ascii text file containing one line for each colour band in the image (in the order red, green, blue).  Each line is a comma separated list of the pixel count for each value.
 
 ## Submission instructions
 
