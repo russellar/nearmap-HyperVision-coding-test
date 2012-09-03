@@ -1,6 +1,7 @@
 # nearmap.com HyperVision C++ Technical Test
 
 ## Constraints
+
 * Must be written in C++
 * Recommended to build and run on Ubnutu Linux (9.04 or above).  Windows also accepted (but not preferred).
 * Recommended to use the Qt SDK (http://qt.nokia.com/downloads/).  Stub project provided.  Boost also accepted (by not preferred).
@@ -15,10 +16,14 @@
 An ascii text file containing one line for each colour band in the image (in the order red, green, blue).  Each line is a comma separated list of the pixel count for each pixel value (0-255).
 
 ## Submission instructions
+
 * A zip file containing the following - submitted to your agent or nearmap contact.
   * Full source code and project files required to build.  It should compile with no errors or warnings.
-  * The histogram file for the provided image.
-  * DO NOT include any intermediate files.
+  * The output histogram file for the provided sample image.
+  * DO NOT include any build intermediate files in the zip file.
+  * DO NOT include the provided sample image in the zip file.
+
+
 * DO NOT send pull requests against this repository for two reasons:
   * We don't want executables checked into source control
   * We don't want other candidates to see your solution.
