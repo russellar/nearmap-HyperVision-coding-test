@@ -2,23 +2,23 @@
 
 ## Constraints
 * Must be written in C++
-* Recommended to build and run on Ubnutu Linux (9.04 or above).  Windows also accepted (but not prefered).
-* Recommended to use the Qt SDK (http://qt.nokia.com/downloads/).  Stub project provided.  Boost also accepted (by not prefered).
+* Recommended to build and run on Ubnutu Linux (9.04 or above).  Windows also accepted (but not preferred).
+* Recommended to use the Qt SDK (http://qt.nokia.com/downloads/).  Stub project provided.  Boost also accepted (by not preferred).
 
 ## Task
 
-* Calculate a red, gree and blue histogram for an image and write to an output file in the format described below.  *It should be optimized for performance (e.g. multi-threaded).*
-* Create a unit test to validate the results.
+* Create a command line tool that can calculate a red, green and blue histogram for an image and write to an output file in the format described below.  *It should be optimized for performance (e.g. multi-threaded).*
+* Create a unit test to validate the results.  To simplify the build process it is sufficient to include the test case in the command line tool.
 
 ## Output format
 
-An ascii text file containing one line for each colour band in the image (in the order red, green, blue).  Each line is a comma separated list of the pixel count for each colour value (0-255).
+An ascii text file containing one line for each colour band in the image (in the order red, green, blue).  Each line is a comma separated list of the pixel count for each pixel value (0-255).
 
 ## Submission instructions
-* Full source code and project files required to build.
-* The histogram file for the provided image.
-* Submission must include all the source files and a compiled executable in a 
-* zip/rar file - submitted to your agent or nearmap contact.
+* A zip file containing the following - submitted to your agent or nearmap contact.
+  * Full source code and project files required to build.  It should compile with no errors or warnings.
+  * The histogram file for the provided image.
+  * DO NOT include any intermediate files.
 * DO NOT send pull requests against this repository for two reasons:
   * We don't want executables checked into source control
   * We don't want other candidates to see your solution.
