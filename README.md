@@ -13,7 +13,7 @@
 
 ## Output format
 
-An ascii text file containing one line for each colour band in the image (in the order red, green, blue).  Each line is a comma separated list of the pixel count for each value (256 values per line).
+An ascii text file containing one line for each colour band in the image (in the order red, green, blue).  Each line is a comma separated list of the pixel count for each value (256 per line).
 
 ## Submission instructions
 
