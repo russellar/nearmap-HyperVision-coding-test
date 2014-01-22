@@ -3,8 +3,8 @@
 ## Constraints
 
 * Must be written in C++
-* Recommended to build and run on Linux (Ubuntu 10.04 or above preferred).
-* Recommended to use the Qt SDK (http://qt.nokia.com/downloads/).  Stub project provided.
+* Recommended to build and run on Linux (Ubuntu 12.04 or above preferred).
+* Recommended to use the Qt SDK (http://qt-project.org/downloads).  Stub project provided.
 
 ## Task
 
