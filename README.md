@@ -10,6 +10,7 @@
 
 * Create a command line tool that can calculate a red, green and blue histogram for an image and write to an output file in the format described below.
   * It should be optimized for performance (e.g. multi-threaded) and should ultilize all processing cores.
+   (Please **don't** use third-party libraries such as Intel TBB or OpenMP.)
 * Create a unit test to validate the results.  To simplify the build process it is sufficient to include the test case in the command line tool.
 
 ## Output format
